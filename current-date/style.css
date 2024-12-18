@@ -1,0 +1,15 @@
+.wp-block-verdure-current-date-wrapper {
+    color: var(--wp--preset--color--cp-text-lightblue);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.wp-block-verdure-current-date,
+.wp-block-verdure-current-date-text-before,
+.wp-block-verdure-current-date-text-after {
+    color: var(--wp--preset--color--cp-text-lightblue);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}

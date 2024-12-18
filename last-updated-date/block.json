@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "verdure/last-updated-date",
+    "version": "1.0.0",
+    "title": "Last Updated Date",
+    "description": "A Gutenberg block to display the current date.",
+    "icon": "calendar-alt",
+    "category": "vdplug",
+    "keywords": [
+        "current date"
+    ],
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "content1": {
+            "type": "string",
+            "default": ""
+        },
+        "content2": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "render": "file:./render-template.php",
+    "textdomain": "vdplug",
+    "editorScript": "file:./index.js",
+    "style": "file:./style-index.css"
+}

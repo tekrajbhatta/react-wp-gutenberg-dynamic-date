@@ -1,0 +1,13 @@
+.wp-block-verdure-last-updated-date-wrapper {
+    text-align: center;
+}
+
+.wp-block-verdure-last-updated-date,
+.wp-block-verdure-last-updated-date-text-before,
+.wp-block-verdure-last-updated-date-text-after {
+    color: var(--wp--preset--color--cp-text-white);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
+}
